@@ -1,0 +1,32 @@
+<div class="pagination">
+    <link rel="stylesheet" href="./css/pagination.css">
+    <form class="pageFrom clearfix">
+        <a ng-href="" class="page ">
+            首页
+        </a>
+        <a ng-href="" class="page prev">
+            上一页
+        </a>
+        <a ng-href="" class="page next page_active">
+            下一页
+        </a>
+        <a ng-href="" class="page end page_active">
+            尾页
+        </a>
+        <a ng-href="" class="page pages">
+            共<span>{{pages}}</span>页
+        </a>
+        <span class="Records">{{count}}条记录</span>
+        <div class="nowPage"><span>当前第</span>
+            <select name="" id="" >
+                <option ng-repeat="(index,item) in pageArr" value="item"> {{item}}</option>
+                <!--<option value="2">2</option>-->
+                <!--<option value="3">3</option>-->
+                <!--<option value="4">4</option>-->
+            </select>
+            <span>页</span>
+        </div>
+        <span class="showSizebox"> <span>每页显示</span><input type="text" ng-model="showSize"><span>条</span></span>
+        <input type="button" value="确定" class="btn_sure">
+    </form>
+</div>
