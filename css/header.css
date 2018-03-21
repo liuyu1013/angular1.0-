@@ -1,0 +1,30 @@
+.header {
+    width:100%;
+    height:34px;
+    position:fixed;
+    left:0;
+    top:0;
+    background: url("../images/head_bg.jpg") repeat-x;
+    background-size:auto 34px;
+    z-index:10;
+    padding-right:20px;
+    padding-top:7px;
+    line-hieght:1;
+}
+.btn_home,.btn_quit {
+    float:left;
+    width:78px;
+    height:20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid #051d43;
+    color:#fff;
+    background:url("../images/btn_bg.jpg") repeat-x;
+    background-size:auto 18px;
+    cursor: pointer;
+    outline:none;
+}
+.btn_quit {
+    margin-left:11px;
+}

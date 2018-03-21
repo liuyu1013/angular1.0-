@@ -1,0 +1,60 @@
+.box_l{
+    width:228px;
+    height:calc(100vh - 34px);
+    background: #fbfcfe;
+    border-right:12px solid #e7f3f9;
+    overflow:auto;
+    text-align:center;
+    margin-top:34px;
+    position:fixed;
+    left:0;
+    top:0;
+    padding-bottom:36px;
+}
+.menu_title {
+    height:22px;
+    border:1px solid #b1c2ca;
+    background:url("../images/menu_bg.jpg") repeat-x ;
+    background-size:auto 100%;
+    font-size:14px;
+    line-height:1;
+    padding-top:4px;
+}
+.menu {
+    height:26px;
+    line-height:26px;
+    text-align:center;
+    font-size:14px;
+    color:#333;
+    background: -webkit-linear-gradient(#f3f8fb, #cde8ef, #c1e3ec); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f3f8fb, #cde8ef, #c1e3ec); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f3f8fb, #cde8ef, #c1e3ec); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f3f8fb, #cde8ef, #c1e3ec); /* 标准的语法 */
+    cursor:pointer;
+}
+.inmenu {
+    display:block;
+    height:20px;
+    line-height:20px;
+    padding-left:35px;
+    text-align:left;
+    font-size:12px;
+}
+.inmenu:hover,.inmenu:focus,.active{
+    background:#0b589e;
+    color:#fff;
+}
+.box_r {
+    width:100%;
+    padding:34px 0 34px 228px;
+}
+.list_title {
+    height:40px;
+    line-height:40px;
+    font-weight: bold;
+    background:#ddd;
+    padding-left:20px;
+}
+.infobox{
+    padding:20px;
+}
